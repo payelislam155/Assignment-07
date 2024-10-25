@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Virat Kohli",
+        "image": "https://i.ibb.co.com/bBn3TPM/Screenshot-2024-10-25-113058.png",
+        "country": "India",
+        "role": "Batsman",
+        "rating": 90,
+        "batting_style": "Right-hand bat",
+        "bowlling_style": "Left-hand ball",
+        "price": 1500000,
+        "choose_player": "Batsman"
+    },
+    {
+        "id": 2,
+        "name": "Babar Azam",
+        "image": "https://i.ibb.co.com/dGZMxyR/Screenshot-2024-10-25-113151.png",
+        "country": "Pakistan",
+        "role": "Batsman",
+        "rating": 88,
+        "batting_style": "Right-hand bat",
+        "bowlling_style": "Right-hand ball",
+        "price": 1200000,
+        "choose_player": "Batsman"
+    },
+    {
+        "id": 3,
+        "name": "Kane Williamson",
+        "image": "https://i.ibb.co.com/j3L1kY6/Screenshot-2024-10-25-113313.png",
+        "country": "New Zealand",
+        "role": "Batsman",
+        "rating": 85,
+        "batting_style": "Right-hand bat",
+        "bowlling_style": "Right-hand ball",
+        "price": 1000000,
+        "choose_player": "Batsman"
+    },
+    {
+        "id": 4,
+        "name": "Jasprit Bumrah",
+        "image": "https://i.ibb.co.com/1mYgrZ8/Screenshot-2024-10-25-113437.png",
+        "country": "India",
+        "role": "Bowler",
+        "rating": 89,
+        "batting_style": "Right-hand bat",
+        "bowlling_style": "Right-hand ball",
+        "price": 1400000,
+        "choose_player": "Bowler"
+    },
+    {
+        "id": 5,
+        "name": "Shaheen Afridi",
+        "image": "https://i.ibb.co.com/bmT9HL9/Screenshot-2024-10-25-113554.png",
+        "country": "Pakistan",
+        "role": "Bowler",
+        "rating": 86,
+        "batting_style": "Right-hand bat",
+        "bowlling_style": "Left-hand ball",
+        "price": 1300000,
+        "choose_player": "Bowler"
+    },
+    {
+        "id": 6,
+        "name": "Pat Cummins",
+        "image": "https://i.ibb.co.com/mCDgZkh/Screenshot-2024-10-25-113827.png",
+        "country": "Australia",
+        "role": "All-rounder",
+        "rating": 87,
+        "batting_style": "Right-hand bat",
+        "bowlling_style": "Right-hand ball",
+        "price": 1100000,
+        "choose_player": "Bowler"
+    }
+]
