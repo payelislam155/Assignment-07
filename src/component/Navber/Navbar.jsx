@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
-        <div>
-<div className="navbar bg-base-100">
+<div>
+<div className="navbar bg-base-10 lg:w-[1100px] mx-auto text-white">
    <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,10 +27,10 @@ const Navbar = () => {
         <li><a>Schedule</a></li>
       </ul>
     </div>
-    <a className="w-12"><img src="./src/assets/logo.png" alt="" /></a>
+    <a className="w-18"><img src="/logo.png" alt="" /></a>
   </div>
-  <div className="navbar-center hidden lg:flex lg:relative lg:left-72">
-    <ul className="menu menu-horizontal font-bold">
+  <div className="navbar-center hidden lg:flex lg:relative lg:left-56">
+    <ul className="menu menu-horizontal font-bold text-xl">
       <li><a>Home</a></li>
       <li><a>Fixture</a></li>
       <li><a>Teams</a></li>
@@ -38,7 +38,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn font-bold">$ Coin</a>
+    <a className="btn font-bold text-xl">$Coin</a>
   </div>
 </div>
         </div>

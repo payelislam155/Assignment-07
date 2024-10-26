@@ -1,5 +1,5 @@
 .main-header{
-    background-image: url(./src/assets/bg-shadow.png);
+    background-image: url(/bg-shadow.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;

@@ -2,7 +2,7 @@ const Footers = () => {
     return (
         <div>
               <div>
-                      <div className="absolute left-[96vh] mt-32"><img src="./src/assets/logo-footer.png" alt="" /></div>
+                      <div className="absolute left-[96vh] mt-32"><img src="/logo-footer.png" alt="" /></div>
                       <footer className="footer h-[85vh] pt-72 bg-black text-base-content p-10">
                     <nav>
                           
