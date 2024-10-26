@@ -1,5 +1,5 @@
 import './Header.css'
-const Header = () => {
+const Header = ({addCoin,coin}) => {
     return (
         <div className='main-header h-[450px]'>
               <div className='text-center py-8'>
@@ -13,7 +13,7 @@ const Header = () => {
                           <p>Beyond Boundaries Beyond Limits</p>
                     </div>
                     <div className='lg:py-4 py-4'>
-                           <button className='bg-lime-400 outline-offset-4 outline-lime-400 outline rounded-lg font-bold text-xl p-3'>Claim Free Credit</button>
+                           <button onClick={() => addCoin(coin)} className='bg-lime-400 outline-offset-4 outline-lime-400 hover:outline-offset-4 hover:bg-yellow-600 outline rounded-lg font-bold text-xl p-3'>Claim Free Credit</button>
                     </div>
               </div>
         </div>

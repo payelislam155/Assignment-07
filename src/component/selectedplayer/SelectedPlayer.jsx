@@ -3,7 +3,9 @@ import React from 'react';
 const SelectedPlayer = ({ selectedPlayers, onDelete }) => {
     return (
         <div>
-            <h2 className="text-2xl font-bold">Selected Players</h2>
+            {selectedPlayers.length > 0 && ( // Only show heading if there are selected players
+                <h2 className="text-2xl font-bold">Selected Players</h2>
+            )}
             <div className="w-[188vh]">
                 {
                     selectedPlayers.length > 0 ? 
@@ -20,7 +22,9 @@ const SelectedPlayer = ({ selectedPlayers, onDelete }) => {
                                         </div>
                                    </div>
                                    <div className=''>
-                                        <button onClick={() => onDelete(player)} className="text-white w-12 rounded-lg"><img src='./icons8-delete.png'></img></button>
+                                        <button onClick={() => onDelete(player)} className="text-white w-12 rounded-lg">
+                                            <img src='./icons8-delete.png' alt="Delete" />
+                                        </button>
                                    </div>
                              </div>
                         )) :

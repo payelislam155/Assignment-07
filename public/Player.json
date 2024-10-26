@@ -8,7 +8,7 @@
         "rating": 90,
         "batting_style": "Right-hand bat",
         "bowlling_style": "Left-hand ball",
-        "price": 1500000,
+        "price": 150000,
         "choose_player": "Batsman"
     },
     {
@@ -20,7 +20,7 @@
         "rating": 88,
         "batting_style": "Right-hand bat",
         "bowlling_style": "Right-hand ball",
-        "price": 1200000,
+        "price": 120000,
         "choose_player": "Batsman"
     },
     {
@@ -32,7 +32,7 @@
         "rating": 85,
         "batting_style": "Right-hand bat",
         "bowlling_style": "Right-hand ball",
-        "price": 1000000,
+        "price": 100000,
         "choose_player": "Batsman"
     },
     {
@@ -44,7 +44,7 @@
         "rating": 89,
         "batting_style": "Right-hand bat",
         "bowlling_style": "Right-hand ball",
-        "price": 1400000,
+        "price": 14000,
         "choose_player": "Bowler"
     },
     {
@@ -56,7 +56,7 @@
         "rating": 86,
         "batting_style": "Right-hand bat",
         "bowlling_style": "Left-hand ball",
-        "price": 1300000,
+        "price": 130000,
         "choose_player": "Bowler"
     },
     {
@@ -68,7 +68,7 @@
         "rating": 87,
         "batting_style": "Right-hand bat",
         "bowlling_style": "Right-hand ball",
-        "price": 1100000,
+        "price": 110000,
         "choose_player": "Bowler"
     }
 ]
